@@ -96,10 +96,10 @@ You could link to your different stylesheets instead of using `@media` queries i
 
 Usually, sites won't have more than two or three columns, unless they're using a grid layout of some kind.
 
-As a result, there are on a few common responsive layouts, which mix and match columns of fixed and fluid widths:
+As a result, there are only a few common responsive layouts, which mix and match columns of fixed and fluid widths:
 
-* Fixed / fixed
 * Fixed / fluid
+* Fixed / fluid / fixed
 * Fluid / fluid
 * Etc.
 
