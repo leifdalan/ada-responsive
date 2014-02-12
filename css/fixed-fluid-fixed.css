@@ -44,6 +44,7 @@ common breakpoints are 480*, 600, 768*, 992, 1024*, 1168
   width: 100%;
   margin: 0 auto;
   max-width: 960px;
+  background: green;
 }
 
 header {
@@ -51,20 +52,42 @@ header {
   background: rgba(255, 0, 0, 0.6);
 }
 
+nav {
+  display: table;
+}
+
 nav ul {
   width: 100%;
+  margin-left: 0;
+  padding-left: 0;
+  display: table-row;
+}
+
+nav ul li {
+  display: inline-block;
+  display: table-cell;
 }
 
 .content {
   width: 100%;
+  float: left;
 }
 
 .content-inner {
   margin-left: 200px;
+  margin-right: 200px;
   background: rgba(255, 0, 0, 0.6);
 }
 
-.sidebar {
+.left-sidebar {
   float: left;
   width: 200px;
+  margin-left: -100%;
 }
+
+.right-sidebar {
+  float: left;
+  width: 200px;
+  margin-left: -200px;
+}
+
