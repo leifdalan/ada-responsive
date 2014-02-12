@@ -89,8 +89,10 @@ Sometimes, to strictly separate you layout and other styles for a bigger project
 
 You could link to your different stylesheets instead of using `@media` queries in your single stylesheet like so:
 
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/mobile.css" media="screen and (max-width: 480px)" rel="stylesheet">
+    <!-- mobile-first stylesheet -->
+    <link href="css/mobile.css" rel="stylesheet">
+    <!-- progressive enhancement stylesheet for desktop -->
+    <link href="css/desktop.css" media="screen and (min-width: 786px)" rel="stylesheet">
 
 ## Common layout patterns
 
