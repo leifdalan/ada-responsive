@@ -34,14 +34,9 @@ common breakpoints are 480*, 600, 768*, 992, 1024*, 1168
 *are common iOS device breakpoints 
 
 */
-/*@media (max-width: 500px) {
-  p {
-    background: green;
-  }
-}*/
 
 .container {
-  width: 100%;
+  padding-top: 50px;
   margin: 0 auto;
   max-width: 960px;
 }
@@ -57,14 +52,48 @@ nav ul {
 
 .content {
   width: 100%;
+  float: left;
 }
 
 .content-inner {
-  margin-left: 200px;
+  margin-left: 250px;
   background: rgba(255, 0, 0, 0.6);
 }
 
 .sidebar {
   float: left;
-  width: 200px;
+  width: 250px;
+  margin-left: -100%;
+
+
+}
+
+nav {
+  display: table;
+  width: 100%;
+}
+
+nav ul {
+  vertical-align: middle;
+  display: table-row;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: table-cell;
+  list-style: none;
+}
+
+@media (max-width: 500px) {
+  .sidebar {
+    width: 100%;
+    background: green;
+    float: none;
+    margin-left: 0;
+  }
+  .content-inner {
+    margin-left: 0;
+  }  
 }
