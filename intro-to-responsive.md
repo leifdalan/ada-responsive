@@ -117,11 +117,13 @@ Ways to test your responsive layout include:
 
 ### Is there a master list of device breakpoints?
 
-Ha ha ha.
+[Here is a table of the display specs for all existing iOS devices.](http://en.wikipedia.org/wiki/List_of_iOS_devices#Display)
 
-_Ha ha ha._
+[Here is a table of specs for all existing Windows 8 devices.](http://en.wikipedia.org/wiki/List_of_Windows_Phone_8_devices#Windows_Phone_8.0)
 
-No. :(
+[Here is a diagram of approximately all the Android devices that were known in the wild in July 2013.](http://opensignal.com/reports/fragmentation-2013/)
+
+So...no. :(
 
 ### What are some other ways to use media features?
 
