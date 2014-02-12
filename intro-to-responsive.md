@@ -12,6 +12,9 @@ _with Leif and Devon_
 * Expanded topics and questions
 * Resources for creating responsive layouts
 
+<!-- the future is now -->
+<iframe width="480" height="360" src="http://www.youtube-nocookie.com/embed/DCyZYhobvc4?rel=0" frameborder="0" allowfullscreen></iframe>
+
 ## Responsive layouts
 
 In a nutshell, the idea of a responsive layout is to _create a web UI that works regardless of the browser or device you're using_.
@@ -22,7 +25,7 @@ Implementing a responsive layout requires using **CSS** and sometimes **Javascri
 
 ### Mobile versus desktop
 
-When "mobile" became a thing, big companies frequently had completely separate mobile and desktop sites, where the mobile site had severely limited functionality and included lots of links to "See Full Site" or "See Desktop Site," which frequently was fixed width and not at all optimized for a small and/or touch device. The implication was that you should be using a "real" computer to do the thing you were trying to do.
+When "mobile" became a thing, big companies frequently had completely separate mobile and desktop sites, where the mobile site had severely limited functionality and included lots of links to "See Full Site" or "See Desktop Site," which frequently was fixed width and not at all optimized for a small and/or touch device. The implication was that you should be using a "real" computer to do the thing you were trying to do on your phone.
 
 ### Mobile-first thinking and implementation
 
