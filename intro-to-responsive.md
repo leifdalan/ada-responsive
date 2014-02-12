@@ -12,9 +12,6 @@ _with Leif and Devon_
 * Expanded topics and questions
 * Resources for creating responsive layouts
 
-<!-- the future is now -->
-<iframe width="480" height="360" src="http://www.youtube-nocookie.com/embed/DCyZYhobvc4?rel=0" frameborder="0" allowfullscreen></iframe>
-
 ## Responsive layouts
 
 In a nutshell, the idea of a responsive layout is to _create a web UI that works regardless of the browser or device you're using_.
