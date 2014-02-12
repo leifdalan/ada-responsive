@@ -132,8 +132,8 @@ The `width` media feature is easiest to apply for responsive layouts, but there 
 * `device-width` and `device-height` are based on the actual device dimensions
 * `orientation` can change the layout depending on if a device is being held in portrait or landscape
 * `aspect-ratio` can change the layout based on the aspect ratio of a browser (like 4:3 or 16:9, for example)
-* `device-aspect-ratio` can change the layout based on teh aspect ratio of the actual device screen
-* `resolution` and `device-pixel-ratio` can be used to serve hi-res background graphics and such to retina-type devices
+* `device-aspect-ratio` can change the layout based on the aspect ratio of the actual device screen
+* `resolution` and `device-pixel-ratio` can be used to serve hi-res background graphics, icons, and such to retina-type devices
 
 And more!
  
