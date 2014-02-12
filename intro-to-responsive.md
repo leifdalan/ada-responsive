@@ -22,7 +22,7 @@ Implementing a responsive layout requires using **CSS** and sometimes **Javascri
 
 ### Mobile versus desktop
 
-When "mobile" became a thing, big companies frequently had completely separate mobile and desktop sites, where the mobile site had severely limited functionality and included lots of links to "See Full Site" or "See Desktop Site," which frequently was fixed width and not at all optimized for a small and/or touch device. The implication was that you should be using a "real" computer to do the thing you were trying to do.
+When "mobile" became a thing, big companies frequently had completely separate mobile and desktop sites, where the mobile site had severely limited functionality and included lots of links to "See Full Site" or "See Desktop Site," which frequently was fixed width and not at all optimized for a small and/or touch device. The implication was that you should be using a "real" computer to do the thing you were trying to do on your phone.
 
 ### Mobile-first thinking and implementation
 
@@ -153,7 +153,7 @@ The result is that you can create media-heavy sites that send smaller, lighter i
 
 ### What are polyfills?
 
-In addition to making complex websites load on phones while people wait for their coffee, a lot of our current strugger as front-end web devs is now:
+In addition to making complex websites load on phones while people wait for their coffee, a lot of our current struggle as front-end web devs is now:
 
 * Making _older browsers_ respect (or gracefully ignore) new and shiny HTML5 and CSS3/4 techniques
 * Making _browsers in general_ behave as we expect them to when we try our new and shiny HTML5 and CSS3/4 techniques
@@ -169,8 +169,8 @@ To do these things, we often use two groups of tools together:
 
 * [Can I Use...](http://caniuse.com/): cross-browser compatability tables for modern front-end web development techniques
 * [iOS Simulator User Guide](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/iOS_Simulator_Guide/Introduction/Introduction.html): A guide to using the iPad and iPhone simulator built into XCode, including to test websites in Mobile Safari
-* [HTML5shiv](https://code.google.com/p/html5shiv/): a Javascript file to teach old IE browsers how to love
-* [Media query features and specs](http://www.w3.org/TR/css3-mediaqueries/)
+* [HTML5shiv](https://code.google.com/p/html5shiv/): a Javascript library for teaching old IE browsers how to love
+* [Media query features and specs](http://www.w3.org/TR/css3-mediaqueries/): W3C spec for media queries, and examples of each
 * [Modernizr](http://modernizr.com/): a Javascript library for detecting HTML5 and CSS3/4 support in browsers
 * [Selectivizr](http://selectivizr.com/): a Javascript library for teaching CSS3/4 support to older IE browsers
 * [HTML5 Cross Browser Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills): a master list of detection and polyfill scripts and tools
