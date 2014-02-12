@@ -89,17 +89,19 @@ Sometimes, to strictly separate you layout and other styles for a bigger project
 
 You could link to your different stylesheets instead of using `@media` queries in your single stylesheet like so:
 
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/mobile.css" media="screen and (max-width: 480px)" rel="stylesheet">
+    <!-- mobile-first stylesheet -->
+    <link href="css/mobile.css" rel="stylesheet">
+    <!-- progressive enhancement stylesheet for desktop -->
+    <link href="css/desktop.css" media="screen and (min-width: 786px)" rel="stylesheet">
 
 ## Common layout patterns
 
 Usually, sites won't have more than two or three columns, unless they're using a grid layout of some kind.
 
-As a result, there are on a few common responsive layouts, which mix and match columns of fixed and fluid widths:
+As a result, there are only a few common responsive layouts, which mix and match columns of fixed and fluid widths:
 
-* Fixed / fixed
 * Fixed / fluid
+* Fixed / fluid / fixed
 * Fluid / fluid
 * Etc.
 
@@ -132,8 +134,8 @@ The `width` media feature is easiest to apply for responsive layouts, but there 
 * `device-width` and `device-height` are based on the actual device dimensions
 * `orientation` can change the layout depending on if a device is being held in portrait or landscape
 * `aspect-ratio` can change the layout based on the aspect ratio of a browser (like 4:3 or 16:9, for example)
-* `device-aspect-ratio` can change the layout based on teh aspect ratio of the actual device screen
-* `resolution` and `device-pixel-ratio` can be used to serve hi-res background graphics and such to retina-type devices
+* `device-aspect-ratio` can change the layout based on the aspect ratio of the actual device screen
+* `resolution` and `device-pixel-ratio` can be used to serve hi-res background graphics, icons, and such to retina-type devices
 
 And more!
  
