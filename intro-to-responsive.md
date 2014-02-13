@@ -171,7 +171,7 @@ To do these things, we often use two groups of tools together:
 
 * [Can I Use...](http://caniuse.com/): cross-browser compatability tables for modern front-end web development techniques
 * [iOS Simulator User Guide](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/iOS_Simulator_Guide/Introduction/Introduction.html): A guide to using the iPad and iPhone simulator built into XCode, including to test websites in Mobile Safari
-* [HTML5shiv](https://code.google.com/p/html5shiv/): a Javascript library for teaching old IE browsers how to love
+* [HTML5shiv](https://code.google.com/p/html5shiv/): a Javascript library for teaching old IE browsers <del>how to love</del> how to render newer HTML5 elements
 * [International box-sizing Awareness Day](http://css-tricks.com/international-box-sizing-awareness-day/): a nice overview of how `box-sizing: border-box` works
 * [Media query features and specs](http://www.w3.org/TR/css3-mediaqueries/): W3C spec for media queries, and examples of each
 * [Modernizr](http://modernizr.com/): a Javascript library for detecting HTML5 and CSS3/4 support in browsers
